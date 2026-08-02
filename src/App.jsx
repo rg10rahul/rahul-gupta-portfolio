@@ -346,7 +346,7 @@ function Hero() {
           Hi I'm <span className="rg-grad-text">Rahul Gupta</span>, a Full-stack developer building AI-powered products.
         </h1>
         <p className="mt-6 max-w-xl text-base sm:text-lg leading-relaxed" style={{ color: "var(--text-dim)" }}>
-          I design and develop production systems for teams at IJCP, Tata Motors, and Novartis - from AI-powered Purchase Order Management System to ETL pipeline and SaaS platforms
+          I design and develop production systems for teams at IJCP, Tata Motors, and Novartis : AI-powered Purchase Order Management System, ETL pipeline and SaaS platforms
           like Gurukool Hub and BI-Migrator.
         </p>
 
