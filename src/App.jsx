@@ -325,7 +325,7 @@ function Nav() {
             <button key={n.id} onClick={() => scrollTo(n.id)} className="rg-focus rg-underline" style={{ color: "var(--text-dim)" }}>{n.label}</button>
           ))}
           <button onClick={() => scrollTo("contact")} className="rg-focus text-sm font-semibold px-4 py-2 rounded-md" style={{ background: "var(--accent)", color: "#fff" }}>
-            Hire me
+            Contact
           </button>
         </nav>
         <button className="sm:hidden rg-focus" onClick={() => setOpen((o) => !o)} aria-label="Toggle menu">
@@ -578,7 +578,7 @@ function Contact() {
             <a href="mailto:rahulrggupta50@gmail.com" className="rg-focus text-sm font-semibold px-6 py-4 rounded-lg inline-flex items-center gap-2" style={{ background: "var(--accent)", color: "#fff" }}>
               <Mail size={16} /> rahulrggupta50@gmail.com
             </a>
-            <a href="tel:+918447608605" className="rg-focus text-sm font-semibold px-6 py-4 rounded-lg inline-flex items-center gap-2 border" style={{ borderColor: "var(--border)" }}>
+            <a href="tel:+918447608605" className="rg-focus text-sm font-semibold px-6 py-4 rounded-lg inline-flex items-center gap-2 border" style={{ background: "var(--accent-2)",color: "#fff" }}>
               <Phone size={16} /> +91 84476 08605
             </a>
           </div>
