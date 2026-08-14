@@ -180,7 +180,7 @@ const PROJECTS = [
     name: "Purchase Order Management",
     client: "IJCP",
     year: "2026",
-    stack: ["FastAPI", "React", "MySQL"],
+    stack: ["FastAPI", "React", "MySQL", "Docker"],
     desc: "A full-stack web app with AI-powered invoice parsing that auto-fills billing details from uploaded files; implements role-based hierarchical access control and manages purchase orders, budgets, per-PO billing ",
     Icon: FileText,
     color: "var(--accent)",
@@ -200,7 +200,7 @@ const PROJECTS = [
     name: "AutoCompare",
     client: "Personal project",
     year: "2026",
-    stack: ["FastAPI", "LangGraph", "LangChain", "React", "Playwright"],
+    stack: ["FastAPI", "LangGraph", "LangChain", "React", "Playwright", "Docker"],
     desc: "A multi-step AI agent that turns natural-language queries into live, ranked car price comparisons scraped across three auto sites, with a resilient scraping pipeline and real-time agent progress in the UI.",
     Icon: Car,
     color: "var(--gold)",
@@ -230,7 +230,7 @@ const PROJECTS = [
     name: "BI-Migrator",
     client: "",
     year: "2024",
-    stack: ["Python", "React", "AWS", "PostgreSQL"],
+    stack: ["Python", "React", "AWS", "PostgreSQL", "Docker"],
     desc: "A SaaS platform that lets clients migrate their Tableau workbooks and dashboards to Power BI, handling the data migration programmatically end-to-end.",
     Icon: Database,
     color: "var(--accent)",
@@ -263,7 +263,7 @@ const EXPERIENCE = [
     active: true,
     points: [
       "Developed and deployed full-stack applications for multiple clients, including AI-integrated accounting systems, ETL pipelines, and SaaS platforms.",
-      "Built with Python, Node.js, React and MySQL; managed server deployments on Linux end to end.",
+      "Built with Python, Node.js, React and MySQL; managed server deployments using Docker and Linux end to end.",
     ],
   },
   {
@@ -277,8 +277,8 @@ const EXPERIENCE = [
     org: "Vaidhya Megha Pvt. Ltd. (Samyama.ai)",
     date: "Jan 2024 — Nov 2024",
     points: [
-      "Built and optimized BI-Migrator, a full-stack app integrating AWS services (S3, DynamoDB, Lambda, Amplify).",
-      "Created reporting dashboards in Tableau and Power BI for internal analytics.",
+      "Built and optimized BI-Migrator, a full-stack app; deploying using docker on AWS and integrating other AWS services (S3, DynamoDB, Lambda, Amplify).",
+      "Created reporting dashboards in Tableau and Power BI",
     ],
   },
   {
