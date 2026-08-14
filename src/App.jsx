@@ -578,7 +578,7 @@ function Contact() {
             <a href="mailto:rahulrggupta50@gmail.com" className="rg-focus text-sm font-semibold px-6 py-4 rounded-lg inline-flex items-center gap-2" style={{ background: "var(--accent)", color: "#fff" }}>
               <Mail size={16} /> rahulrggupta50@gmail.com
             </a>
-            <a href="tel:+918447608605" className="rg-focus text-sm font-semibold px-6 py-4 rounded-lg inline-flex items-center gap-2 border" style={{ background: "var(--accent-2)",color: "#fff" }}>
+            <a href="tel:+918447608605" className="rg-focus text-sm font-semibold px-6 py-4 rounded-lg inline-flex items-center gap-2" style={{ background: "#249c70",color: "#fff" }}>
               <Phone size={16} /> +91 84476 08605
             </a>
           </div>
