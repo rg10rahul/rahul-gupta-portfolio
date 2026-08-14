@@ -186,6 +186,16 @@ const PROJECTS = [
     link: "https://accounts.ijcpgroup.com/",
   },
   {
+    name: "AutoCompare",
+    client: "Personal project",
+    year: "2026",
+    stack: ["FastAPI", "LangGraph", "LangChain", "React", "Playwright"],
+    desc: "A multi-step AI agent that turns natural-language queries into live, ranked car price comparisons scraped across three auto sites, with a resilient scraping pipeline and real-time agent progress in the UI.",
+    Icon: Car,
+    color: "var(--gold)",
+    link: "https://your-deployed-url-here.vercel.app",
+  },
+  {
     name: "Gurukool Hub",
     client: "Novartis",
     year: "2025",
