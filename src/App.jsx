@@ -14,6 +14,7 @@ import {
   LayoutDashboard,
   ShieldCheck,
   Workflow,
+  Car,
   MessageSquare,
   Braces,
   Download,
