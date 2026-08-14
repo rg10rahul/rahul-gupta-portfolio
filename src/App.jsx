@@ -251,7 +251,7 @@ const PROJECTS = [
 const SKILLS = [
   { group: "Backend", color: "var(--accent)", items: ["Python", "Node.js", "FastAPI", "Express", "Flask", "REST API", "OOP"] },
   { group: "Frontend", color: "var(--accent-2)", items: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS", "Bootstrap", "HTML"] },
-  { group: "AI", color: "var(--gold)", items: ["OpenAI", "Claude", "LangChain", "RAG", "Chroma", "Agents", "Prompt Engineering"] },
+  { group: "AI", color: "var(--gold)", items: ["LangChain", "RAG", "LangGraph", "Web Scraping (Playwright)", "AI Agents", "VectorDB (Chroma)", "Prompt Engineering"] },
   { group: "Cloud & Data", color: "var(--ok)", items: ["AWS", "Docker", "MySQL", "PostgreSQL", "MongoDB", "Linux", "Git / CI-CD"] },
 ];
 
