@@ -197,14 +197,14 @@ const PROJECTS = [
     link: "https://gurukooltraining.com/",
   },
   {
-    name: "AutoCompare",
+    name: "AutoHunter AI",
     client: "Personal project",
     year: "2026",
     stack: ["FastAPI", "LangGraph", "LangChain", "React", "Playwright", "Docker"],
     desc: "A multi-step AI agent that turns natural-language queries into live, ranked car price comparisons scraped across three auto sites, with a resilient scraping pipeline and real-time agent progress in the UI.",
     Icon: Car,
     color: "var(--gold)",
-    link: "https://autocompare-app.vercel.app/",
+    link: "https://autohunterai.vercel.app/",
   },
   {
     name: "Warranty Claim System",
@@ -335,7 +335,7 @@ function Nav() {
       {open && (
         <nav className="sm:hidden flex flex-col px-5 pb-4 gap-3 text-sm">
           {NAV.map((n) => <button key={n.id} onClick={() => scrollTo(n.id)} className="text-left rg-focus" style={{ color: "var(--text-dim)" }}>{n.label}</button>)}
-          <button onClick={() => scrollTo("contact")} className="text-left rg-focus font-semibold" style={{ color: "var(--accent)" }}>Hire me</button>
+          <button onClick={() => scrollTo("contact")} className="text-left rg-focus font-semibold" style={{ color: "var(--accent)" }}>Contact</button>
         </nav>
       )}
     </header>
