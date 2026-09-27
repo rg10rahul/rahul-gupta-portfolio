@@ -188,13 +188,13 @@ const PROJECTS = [
     link: "https://accounts.ijcpgroup.com/",
   },
   {
-    name: "Inovace – AI-Agentic Billing System",
+    name: "Inovace – AI Agentic Billing System",
     client: "CA Firm",
     year: "2026",
     stack: ["LangGraph, Node.js, React, MySQL"],
     desc: "A multi-agent billing system, which uses LLM agents to parse messy billing spreadsheets, fuzzy-match rows to contracts, and apply human-approved edits before final database commits",
     Icon: Bot,
-    color: "var(--gold)",
+    color: "var(--accent-2)",
     link: "https://inovace-llc.com/",
   },
   {
@@ -224,7 +224,7 @@ const PROJECTS = [
     stack: ["Node.js", "React", "MySQL"],
     desc: "SaaS platform where admins assign and audit cases via a master login, while users fill auto-saving forms tracked on a live dashboard.",
     Icon: LayoutDashboard,
-    color: "var(--accent-2)",
+    color: "var(--gold)",
     link: "https://gurukooltraining.com/",
   },
   {
