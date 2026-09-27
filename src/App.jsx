@@ -19,6 +19,7 @@ import {
   Braces,
   Download,
   Sparkles,
+  Bot
 } from "lucide-react";
 
 
@@ -177,24 +178,24 @@ const NAV = [
 
 const PROJECTS = [
   {
-    name: "Purchase Order Management",
+    name: "AI Purchase Order Management",
     client: "IJCP",
     year: "2026",
-    stack: ["FastAPI", "React", "MySQL", "Docker"],
-    desc: "A full-stack web app with AI-powered invoice parsing that auto-fills billing details from uploaded files; implements role-based hierarchical access control and manages purchase orders, budgets, per-PO billing ",
+    stack: ["FastAPI", "React", "LangChain", "MySQL", "Docker"],
+    desc: "A full-stack platform with AI-powered invoice parsing to auto-extract data from uploaded invoices, integrated with hierarchical role-based access control, budget tracking, and per-PO billing",
     Icon: FileText,
     color: "var(--accent)",
     link: "https://accounts.ijcpgroup.com/",
   },
   {
-    name: "Gurukool Hub",
-    client: "Novartis",
-    year: "2025",
-    stack: ["Node.js", "React", "MySQL"],
-    desc: "SaaS platform where admins assign and audit cases via a master login, while users fill auto-saving forms tracked on a live dashboard.",
-    Icon: LayoutDashboard,
-    color: "var(--accent-2)",
-    link: "https://gurukooltraining.com/",
+    name: "Inovace – AI-Agentic Billing System",
+    client: "CA Firm",
+    year: "2026",
+    stack: ["LangGraph, Node.js, React, MySQL"],
+    desc: "A multi-agent billing system, which uses LLM agents to parse messy billing spreadsheets, fuzzy-match rows to contracts, and apply human-approved edits before final database commits",
+    Icon: Bot,
+    color: "var(--gold)",
+    link: "https://inovace-llc.com/",
   },
   {
     name: "AutoHunter AI",
@@ -209,7 +210,7 @@ const PROJECTS = [
   {
     name: "Warranty Claim System",
     client: "Tata Motors",
-    year: "2026",
+    year: "2025",
     stack: ["FastAPI", "React", "MySQL"],
     desc: "An ETL pipeline that ingests raw warranty Excel data, transforms and loads it into SQL, then generates meaningful claim reports and emails them directly to Tata Motors.",
     Icon: Workflow,
@@ -217,14 +218,14 @@ const PROJECTS = [
     link: "https://warrantyclaim.capac.co.in/",
   },
   {
-    name: "Inovace",
-    client: "",
+    name: "Gurukool Hub",
+    client: "Novartis",
     year: "2025",
     stack: ["Node.js", "React", "MySQL"],
-    desc: "A contract management system for tracking contracts end-to-end, adding per-contract billing details and generating invoices directly from the app.",
-    Icon: ShieldCheck,
-    color: "var(--gold)",
-    link: "https://inovace-llc.com/",
+    desc: "SaaS platform where admins assign and audit cases via a master login, while users fill auto-saving forms tracked on a live dashboard.",
+    Icon: LayoutDashboard,
+    color: "var(--accent-2)",
+    link: "https://gurukooltraining.com/",
   },
   {
     name: "BI-Migrator",
@@ -251,7 +252,7 @@ const PROJECTS = [
 const SKILLS = [
   { group: "Backend", color: "var(--accent)", items: ["Python", "Node.js", "FastAPI", "Express", "Flask", "REST API", "OOP"] },
   { group: "Frontend", color: "var(--accent-2)", items: ["React", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS", "Bootstrap", "HTML"] },
-  { group: "AI", color: "var(--gold)", items: ["LangChain", "RAG", "LangGraph", "Web Scraping (Playwright)", "AI Agents", "VectorDB (Chroma)", "Prompt Engineering"] },
+  { group: "AI", color: "var(--gold)", items: ["LangChain", "RAG", "LangGraph", "AI Agents", "Web Scraping (Playwright)", "VectorDB (Chroma)", "Prompt Engineering"] },
   { group: "Cloud & Data", color: "var(--ok)", items: ["AWS", "Docker", "MySQL", "PostgreSQL", "MongoDB", "Linux", "Git / CI-CD"] },
 ];
 
@@ -262,23 +263,22 @@ const EXPERIENCE = [
     date: "Jun 2025 — Now",
     active: true,
     points: [
-      "Developed and deployed full-stack applications for multiple clients, including AI-integrated accounting systems, ETL pipelines, and SaaS platforms.",
-      "Built with Python, Node.js, React and MySQL; managed server deployments using Docker and Linux end to end.",
+      "Developed and deployed full-stack SaaS apps and AI agent workflows, including LLM billing agents, AI accounting systems, ETL pipelines for multiple clients.",
+      "Built using Python, Node.js, React, LangGraph, MySQL, Docker, and Linux.",
     ],
   },
   {
-    role: "Full Stack Developer Trainee",
+    role: "Full Stack Developer (Contract)",
     org: "DAM Studioz",
     date: "Mar 2025 — Jun 2025",
     points: ["Built frontend and backend features on a production React, Node.js, and MongoDB stack."],
   },
   {
-    role: "Software Developer Trainee",
+    role: "Software Developer",
     org: "Vaidhya Megha Pvt. Ltd. (Samyama.ai)",
     date: "Jan 2024 — Nov 2024",
     points: [
-      "Built and optimized BI-Migrator, a full-stack app; deploying using docker on AWS and integrating other AWS services (S3, DynamoDB, Lambda, Amplify).",
-      "Created reporting dashboards in Tableau and Power BI",
+      "Built and optimized BI-Migrator, a full-stack SaaS application that automates Tableau to Power BI dashboard migrations using Python and React, deployed via Docker on AWS serverless infrastructure (Lambda, S3, DynamoDB, Cloudwatch).",
     ],
   },
   {
@@ -357,7 +357,7 @@ function Hero() {
           Hi I'm <span className="rg-grad-text">Rahul Gupta</span>, a Full-stack developer building AI-powered products.
         </h1>
         <p className="mt-6 max-w-xl text-base sm:text-lg leading-relaxed" style={{ color: "var(--text-dim)" }}>
-          I design and develop production systems for teams at IJCP, Tata Motors, and Novartis — from AI-powered Purchase Order Management System to ETL pipeline and SaaS platforms
+          I design and develop production systems for teams at IJCP, Tata Motors, and Novartis — from multi-agent billing workflows and AI-powered Purchase Order systems to ETL pipeline and SaaS platforms
           like Gurukool Hub and BI-Migrator.
         </p>
 
